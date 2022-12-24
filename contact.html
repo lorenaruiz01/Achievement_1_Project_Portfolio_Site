@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://www.wikipedia.org/static/favicon/wikipedia.ico">
+    <title>First Document</title>
+</head>
+<body>
+    <header>
+        <!-- Add Logo Here -->
+        <img src="http://via.placeholder.com/200x70" alt=" "> <!--Don't forget to add descriptive text to the alt attribute-->
+        <ul>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="about.html">About</a>
+            </li>
+            <li>
+                <a href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </header>
+    <div>
+        <!-- Add div content here -->
+       <h1> Contact Page</h1>
+       <div>
+        Lorena Ruiz<br>
+        Los Angeles, CA<br>
+        Tel <a href="tel:3237871382">323-787-1382</a><br>
+        <a href="mailto:lorenaruiz0222@gmail.com">lorenaruiz0222(at)gmail(dot)com</a>
+        <p>
+            <a href="mailto:lorenaruiz0222@gmail.com">Contact Me</a>
+        </p>
+        </div> 
+        <h2>Send me a message!</h2>
+        <form action="" method="post" id="contact-form" >
+            <label class="standard-label" for="contact-email">Email:</label>
+            <input type="email" id="contact-email" required>
+
+            <label class="standard-label" for="contact-telephone" >Telephone:</label>
+            <input type="tel" id="contact-telephone" pattern="\d{3}[\-]\d{3}[\-]\d{4}">
+
+            <label  class="standard-label" for="contact-message" >Message:</label>
+            <textarea maxlength="240" id="contact-message" required></textarea>
+            <input type="submit" value="send message">
+        </form>
+    </div>
+    <footer>
+        <p>Find me on</p>
+        <!-- Github logo -->
+        <img src="img/github_icon.svg" alt="github">
+        <!-- Twitter logo -->
+        <img src="img/twitter_icon.svg" alt="twitter">
+        <!-- LinkedIn logo -->
+        <img src="img/linkedin_icon.svg" alt="linkedin">
+    </footer>
+</body>
+</html>
+

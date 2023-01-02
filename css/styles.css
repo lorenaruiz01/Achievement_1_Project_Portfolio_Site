@@ -80,4 +80,24 @@ Secondary Color (Orange): #e0b354;
   .navigation-list__item--active {
     text-decoration: none;
   }
+
+  .profile__portrait {
+    float: left;
+    width: 250px;
+    margin-right: 40px;
+    border-radius: 50%;
+  }
+
+  .page-footer {
+    clear: both;
+  }
+
+  .profile {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  
+
+ 
+
   

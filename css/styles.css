@@ -129,3 +129,15 @@ Secondary Color (Orange): #e0b354;
     display: inline-block;
     margin-left: 15px;
   }
+
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+  }
+
+  .grid__item {
+    background-color: lightgray;
+    padding: 30px;
+  }
+

@@ -1,13 +1,12 @@
-$primary-color: #357b70;
+/*
+Colors used
 
-a {
-    color: $primary-color;
-}
+Text Color (Dark Gray): #2b2b2b;
+Primary Color (Teal): #357b70;
+Secondary Color (Orange): #e0b354;
+ */
 
-p {
-    color: $primary-color;
-}
-
-div {
-    background: $primary-color;
-}
+ $text-color: #2b2b2b;
+ $primary-color: #357b70;
+ $secondary-color: #e0b354;
+ 

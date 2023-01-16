@@ -28,21 +28,21 @@
   
   h1 {
       /* font size 30px */
-    font-size: calc(var(--font-size) + 14);
+    font-size: calc(var(--font-size) + 14px);
       /* font weight 700 */
     font-weight: var(--font-weight);
   }
   
   h2 {
       /* font size 24px */
-    font-size: calc(var(--font-size) + 8);
+    font-size: calc(var(--font-size) + 8px);
       /* font weight 700 */
     font-weight: var(--font-weight);
   }
   
   h3 {
       /* font size 20px */
-    font-size: calc(var(--font-size) + 4);
+    font-size: calc(var(--font-size) + 4px);
       /* font weight 700 */
     font-weight: var(--font-weight);
   }

@@ -21,7 +21,7 @@
     font-family: 'Lato', sans-serif;
     font-weight: calc(var(--font-weight) - 300);
       /* Sets the font size to 16px */
-    font-size: 16px;
+    font-size: var(--font-size);
       /* Sets the line-height to 1.6 */
     line-height: 1.6;
   }
@@ -35,9 +35,9 @@
   
   h2 {
       /* font size 24px */
-    font-size: calc(var(--font-weight) + 8);
+    font-size: calc(var(--font-size) + 8);
       /* font weight 700 */
-    font-weight: var(--font-size);
+    font-weight: var(--font-weight);
   }
   
   h3 {

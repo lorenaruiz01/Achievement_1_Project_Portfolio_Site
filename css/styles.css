@@ -28,7 +28,7 @@
   
   h1 {
       /* font size 30px */
-    font-size: calc(var(--font-weight) + 14);
+    font-size: calc(var(--font-size) + 14);
       /* font weight 700 */
     font-weight: var(--font-weight);
   }
@@ -37,12 +37,12 @@
       /* font size 24px */
     font-size: calc(var(--font-weight) + 8);
       /* font weight 700 */
-    font-weight: var(--font-weight);
+    font-weight: var(--font-size);
   }
   
   h3 {
       /* font size 20px */
-    font-size: calc(var(--font-weight) + 4);
+    font-size: calc(var(--font-size) + 4);
       /* font weight 700 */
     font-weight: var(--font-weight);
   }

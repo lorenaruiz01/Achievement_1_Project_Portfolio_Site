@@ -68,6 +68,11 @@
     color: var(--active-link);
   }
 
+  .logo{
+    display: inline-block;
+    max-width: 200px;
+    max-height: 70px;
+}
   .button, button {
     /* overwrites browser defaults and resets the border */
     border: none;

@@ -164,7 +164,8 @@
 
   .grid__item {
     background-color: lightgray;
-    padding: 30px;
+    padding: 80px;
+    margin: 20px;
   }
 
   @media all and (max-width: 500px) {

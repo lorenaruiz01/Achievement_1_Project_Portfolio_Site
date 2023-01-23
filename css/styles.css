@@ -112,6 +112,10 @@
     background-color: var(--secondary-color);
     color: var(--text-color);
   }
+  
+  #cv{
+    margin-top: 20px;
+  }
 
   .navigation-list__item--active {
     text-decoration: none;

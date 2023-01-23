@@ -30,7 +30,7 @@
   
   h1 {
       /* font size 30px */
-    font-size: calc(var(--font-size) + 16px);
+    font-size: calc(var(--font-size) + 32px);
       /* font weight 700 */
     font-weight: var(--font-weight);
   }
@@ -114,7 +114,7 @@
   }
   
   #cv{
-    margin-top: 20px;
+    margin-top: 40px;
   }
 
   .navigation-list__item--active {
@@ -143,7 +143,7 @@
     flex-direction: column;
     text-align: center;
     align-content: center;
-    margin-top: 300px;   
+    margin-top: 250px;   
   }
 
   div.page-image { 
@@ -159,6 +159,10 @@
     margin: 0 auto;
   }
   
+  .work-heading {
+    display: flex;
+    justify-content: center;
+  }
 
   * {
     box-sizing: border-box;

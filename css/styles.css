@@ -204,11 +204,15 @@
 
   .email {
     display: flex;
-
   }
 
   .email-box {
-    margin-left: 40px;
+    margin-left: 56px;
+  }
+
+  .message-box{
+    margin-left: 30px;
+    margin-top: 20px;
   }
 
   @media all and (max-width: 500px) {

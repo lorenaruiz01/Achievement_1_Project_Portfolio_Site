@@ -52,11 +52,12 @@
     color: var(--primary-color);
   }
   
-
+/*
   a:visited {
-    /* visited link */
+    /* visited link 
     color: var(--visited-link);
   }
+*/
   
   a:hover, a:focus {
     /* No underlining when hovering over a link */

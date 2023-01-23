@@ -71,6 +71,10 @@
     color: var(--active-link);
   }
 
+  .social-media {
+    justify-content: flex-end;
+  }
+
   .social-media-logo {
     text-decoration: none;
   }
@@ -134,7 +138,8 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-    
+    align-content: center;
+    margin-top: 300px;   
   }
 
   .profile {

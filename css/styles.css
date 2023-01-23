@@ -197,6 +197,16 @@
     border-radius: 10px;
   }
 
+  .form{
+    display: flex;
+    
+  }
+
+  .email {
+    display: flex;
+
+  }
+
   @media all and (max-width: 500px) {
     .grid {
       grid-template-columns: 1fr;

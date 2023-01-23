@@ -68,6 +68,10 @@
     color: var(--active-link);
   }
 
+  .social-media-logo {
+    text-decoration: none;
+  }
+
   .logo{
     display: inline-block;
     max-width: 200px;

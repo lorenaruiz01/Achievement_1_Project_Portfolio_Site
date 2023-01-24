@@ -209,6 +209,7 @@
   .email-box {
     margin-left: 56px;
     border-color: var(--primary-color);
+    border-width: 2px;
     border-radius: 5px;
   }
 
